@@ -1,6 +1,7 @@
 # Run
-Setup PostgreSQL  as in backend/backend/settings.py DATABASES.
-Run in teminal:
+1. Setup PostgreSQL  as in backend/backend/settings.py DATABASES.
+
+2. Run in teminal:
 ``` terminal
 python -m venv venv
 source venv/bin/activate #optional
