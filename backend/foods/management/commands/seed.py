@@ -34,7 +34,7 @@ class Command(BaseCommand):
                 is_special=False, code=i+1, internal_code=(i+1)*100,
                 name_ru=data[i][0], description_ru=data[i][1],
                 description_en=None, description_ch=None, cost='123.00',
-                is_publish=True)
+                is_publish=is_publish)
 
             print(f'Created food - {data[i][0]}')
 
